@@ -27,14 +27,9 @@ images.forEach((img) => {
     });
 });
 
-const button = document.querySelector(".button");
-button.addEventListener("click", () => {
-    const container = document.querySelector(".modal");
-    container.classList.add("hide");
-})
+
 
 document.querySelector(".modal").addEventListener("click", () => {
     const container = document.querySelector(".modal");
     container.classList.add("hide");
 })
-
