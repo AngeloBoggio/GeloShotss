@@ -103,12 +103,18 @@ img {
     right: 25px;
 }
 
-@media screen and (max-width:400px) {
-    .myImage{
-        width: 325px;
-        position: absolute;
-        left: -15px;
+@media screen and (max-width: 400px) {
+    .description{
+        position: relative;
+        right: 1px;
+        float: right;
         justify-content: center;
+    }
+
+    .myImage {
+        position:relative;
+        margin-right: 26px;
+        max-width: 350px;
     }
 }
 
