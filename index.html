@@ -37,7 +37,6 @@
     <div class = "container">
         <div class = "modal hide" >
             <div class= "image-container"> 
-                <div class="closeModal"><button class = "button">X</button></div>
                 <div class = "modalImg">
                         <img class = "lifeGuard" src = "" alt = "closeUpTower"/>
                 </div>
@@ -140,4 +139,26 @@
     </div>
 
 </body>
+
+
+<!---
+    // java
+    const button = document.querySelector(".button");
+button.addEventListener("click", () => {
+    const container = document.querySelector(".modal");
+    container.classList.add("hide");
+})
+
+// HTML
+<div class="closeModal"><button class = "button">X</button></div>
+
+// css
+button {
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    left: 540px;
+    bottom: 15px;
+}
+-->
 </html>
