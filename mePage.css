@@ -103,6 +103,14 @@ img {
     right: 25px;
 }
 
+@media screen and (max-width:400px) {
+    .myImage{
+        width: 325px;
+        position: absolute;
+        justify-content: center;
+    }
+}
+
 
 @media screen and (max-width:500px) {
     .description{
