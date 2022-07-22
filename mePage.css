@@ -107,7 +107,7 @@ img {
     .myImage{
         width: 325px;
         position: absolute;
-        right: 25px;
+        left: -15px;
         justify-content: center;
     }
 }
@@ -152,5 +152,4 @@ img {
         display: block;
         text-align: left;
     }
-    
 }
