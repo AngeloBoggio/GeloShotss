@@ -104,13 +104,7 @@ h1 {
     width: 100%;
 }
 
-button {
-    background-color: transparent;
-    cursor: pointer;
-    position: relative;
-    left: 540px;
-    bottom: 15px;
-}
+
 
 
 
@@ -222,6 +216,11 @@ button {
     .w-1,.w-2,.w-3,.w-4,.w-6,.w-9 {
         grid-column: span 1;
     }
+    .image-container{
+        width: 50%;
+        max-height: 500px;
+        margin-top: 100px;
+    }
 }
 
 
@@ -254,4 +253,3 @@ button {
 .hide {
     display: none;
 }
-
