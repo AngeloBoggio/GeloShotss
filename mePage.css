@@ -107,6 +107,7 @@ img {
     .myImage{
         width: 325px;
         position: absolute;
+        right: 25px;
         justify-content: center;
     }
 }
